@@ -28,7 +28,7 @@ client.on('message', message => {
 
 client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot
 
-client.user.setActivity("with depression", {
+client.user.setActivity("with depressing lifes", {
   type: "STREAMING",
   url: "https://www.twitch.tv/monstercat"
 });
